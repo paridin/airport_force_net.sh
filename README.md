@@ -18,10 +18,10 @@ edit into the daemon file `com.paridin.com.it.airportforcenet.plist`, the follow
 
 copy the daemon file `com.paridin.com.it.airportforcenet.plist` to `/Library/LaunchDaemons`
 
-``cp com.paridin.com.it.airportforcenet.plist /Library/LaunchDaemons``
+```cp com.paridin.com.it.airportforcenet.plist /Library/LaunchDaemons```
 
 launch the shell as daemon
-``launchctl load -w /Library/LaunchDaemons/com.paridin.com.it.airportforcenet.plist``
+```launchctl load -w /Library/LaunchDaemons/com.paridin.com.it.airportforcenet.plist```
 
 #How uninstall
 
@@ -34,4 +34,6 @@ rm /Library/LaunchDaemons/com.paridin.com.it.airportforcenet.plist
 
 remove project
 
-``rm /your/path/cloned/afn``
+```
+rm /your/path/cloned/afn
+```
