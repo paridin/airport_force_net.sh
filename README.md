@@ -4,7 +4,7 @@
 Force the airport to establish the connection with your WiFi prefered
 
 
-#How install 
+#How to install 
 
 first, created a dir to clon the project, clon it, and edit it.
 
@@ -27,7 +27,7 @@ launch the shell as daemon
 launchctl load -w /Library/LaunchDaemons/com.paridin.com.it.airportforcenet.plist
 ```
 
-#How uninstall
+#How to uninstall
 
 remove the daemon into launchd
 
