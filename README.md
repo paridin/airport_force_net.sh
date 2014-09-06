@@ -1,4 +1,4 @@
-##airport_force_net.sh
+#afn (airport force network) Project 
 ====================
 
 Force the airport to establish the connection with your WiFi prefered
@@ -6,7 +6,7 @@ Force the airport to establish the connection with your WiFi prefered
 
 #How install 
 
-clon the project
+first, created a dir to clon the project, clon it, and edit it.
 
 ```
 cd /your/path/cloned
@@ -14,9 +14,9 @@ git clone https://github.com/paridin/airport_force_net.sh afn
 cd afn; vi -c 2 airport_force_net.sh
 ```
 
-edit into the daemon file `com.paridin.com.it.airportforcenet.plist`, the following line in `/Users/myuser/airport_force_net.sh` to the path where you located the git project `/your/path/cloned/afn`
+edit into the daemon file ``com.paridin.com.it.airportforcenet.plist``, the following line in ``/Users/myuser/airport_force_net.sh`` to the path where you located the git project ``/your/path/cloned/afn``
 
-copy the daemon file `com.paridin.com.it.airportforcenet.plist` to `/Library/LaunchDaemons`
+copy the daemon file ``com.paridin.com.it.airportforcenet.plist`` to ``/Library/LaunchDaemons``
 
 ```
 cp com.paridin.com.it.airportforcenet.plist /Library/LaunchDaemons
